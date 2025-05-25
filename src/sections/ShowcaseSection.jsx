@@ -48,20 +48,18 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="bg-gray-300 w-full h-[500px] flex items-center justify-center rounded-xl">
-              <img src="/images/priShop2.png" class="w-[700px] object-contain rounded-xl" />
+            <div className="bg-gray-300 w-full flex items-center justify-center rounded-xl">
+              <img src="/images/priShop2.png" class="w-[700px] object-contain rounded-xl my-10" />
             </div>
             {/* <div className="image-wrapper">
               <img src="/images/project1.png" alt="Ryde App Interface" />
             </div> */}
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Seamless Online Shopping with a Powerful, User-Friendly Platform called priShop
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React, TailwindCSS & Nodejs for a fast,
-                user-friendly experience.
+                A modern e-commerce experience built with React, TailwindCSS & Node.js — fast, secure, and designed to drive sales.
               </p>
             </div>
           </div>
