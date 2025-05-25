@@ -120,12 +120,6 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
     name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
@@ -136,12 +130,6 @@ const techStackIcons = [
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
-  },
-  {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
   },
 ];
 
@@ -160,9 +148,9 @@ const expCards = [
   },
   {
     review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
+    imgPath: "/images/rixrod2.jpg",
+    logoPath: "/images/rixrod2.jpg",
+    title: "Frontend Developer",
     date: "June 2020 - December 2023",
     responsibilities: [
       "Led the development of Docker's web applications, focusing on scalability.",
@@ -170,18 +158,6 @@ const expCards = [
       "Contributed to open-source projects that were used with the Docker ecosystem.",
     ],
   },
-  // {
-  //   review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-  //   imgPath: "/images/exp3.png",
-  //   logoPath: "/images/logo3.png",
-  //   title: "React Native Developer",
-  //   date: "March 2019 - May 2020",
-  //   responsibilities: [
-  //     "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-  //     "Improved app performance and user experience through code optimization and testing.",
-  //     "Coordinated with the product team to implement features based on feedback.",
-  //   ],
-  // },
 ];
 
 const expLogos = [
